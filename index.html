@@ -1,0 +1,132 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="description" content="Dwayne Rill Jr. Web Design">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+
+<!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Staatliches&display=swap" rel="stylesheet">
+
+<!-- Custom CSS stylesheet -->
+<link rel="stylesheet" type="text/css" href="style.css" >
+
+<!-- Bootstrap -->
+<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+
+<!-- Font Awesome Icons -->
+<script src="https://kit.fontawesome.com/d751aa756b.js" crossorigin="anonymous"></script>
+
+<title>Dwayne Rill Jr. | Web Designer</title>
+</head>
+
+<body>
+
+<nav class="navbar navbar-expand-sm sticky-top">
+  <div class="container">
+    <a class="nav-link" href="#about">Dwayne Rill Jr.</a>
+    <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#portfolioNav">
+      <span><i class="fas fa-hamburger"></i></span>
+    </button>
+  </div>
+  <div class="collapse navbar-collapse" id="portfolioNav">
+    <ul class="navbar-nav">
+      <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+      <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+      <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+      <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      <li class="nav-item"><a class="nav-link" href="#blog">Blog</a></li>
+    </ul>
+  </div>
+</nav>
+
+<section id="hero">
+    <div id="hero-content">
+      <header>Hi, I'm Dwayne</header>
+      <hr>
+      <p>I'm a Maryland-based Web Designer & Developer</p>
+      <div id="socials">
+        <div class="btn-portfolio"><a href="https://www.dwaynerilljr.dev" target="blank">Portfolio</a></div>
+        <div class="btn-portfolio"><a href="https://www.github.com/dwaynerilljr" target="blank">GitHub</a></div>
+        <div class="btn-portfolio"><a href="https://www.instagram.com/dwaynerilljr_dev" target="blank">Instagram</a></div>
+        <div class="btn-portfolio"><a href="https://www.twitter.com/dwaynerill_jr" target="blank">Twitter</a></div>
+      </div>
+    </div>
+    <img src="images/me.png" alt="">
+</section>
+
+<section id="about">
+      <header class="contrast-head">a bit about me</header>
+      <div id="story">
+        <img src="images/m2.jpg" alt="">
+        <p>
+          I'm a web designer and developer who started programming back in 2017 and have been hooked ever since. I've recently begun documenting my coding
+          journey on my <a href="https://www.instagram.com/dwaynerilljr_dev" target="blank">instagram</a> account and I also have a 
+          repo on GitHub (<a href="https://github.com/dwaynerilljr/christmas-list-app" target="blank">found here</a>) that contains a christmas project 
+          I'm working on. I'm currently a student majoring in Web & Multimedia technology. I love front-end development and UX Design, and have a firm grasp on 
+          HTML5 and CSS3 as well as some working knowledge with JavaScript (ES6)
+          <br>
+          In my free time when I'm not programming I enjoy watching anime, playing my nintendo switch, crossword puzzles, and really good (gluten-free) food.
+        </p>
+      </div>
+</section>
+
+<section id="portfolio">
+  <header class="section-head">portfolio</header>
+  <img src="images/webDesign.svg" alt="">
+  <p>Projects coming soon! Stay tuned :D</p>
+</section>
+
+<section id="services">
+  <header class="contrast-head">services</header>
+  <div class="card-container">
+    <div class="card">
+      <img src="images/responsive.svg" alt="">
+      <header>Responsive Web Design</header>
+      <p>Responsive Web Design using CSS3 technologies to make websites display beautifully on all screens, no matter the size.</p>
+    </div>
+    <div class="card">
+      <img src="images/web-building.svg" alt="">
+      <header>Website Building</header>
+      <p>Turning your ideas into tangible webpages using web technologies such as HTML5, CSS3 and JavaScript.</p>
+    </div>
+    <div class="card">
+      <img id="ux" src="images/ux.svg" alt="">
+      <header>UX/UI Design</header>
+      <p>Employing design concepts such as color theory to make webpages pleasant, easy and fun to use while maintaining design integrity.</p>
+    </div>
+  </div>
+</section>
+
+<form action="" id="contact">
+  <header class="section-head">Get in touch!</header>
+  <ul>
+    <li>
+      <label for="name"></label>
+      <input type="text" id="name" name="userName" placeholder="Name">
+    </li>
+    <li>
+      <label for="email"></label>
+      <input type="email" id="email" name="userEmail" placeholder="Email">
+    </li>
+    <li>
+      <label for="message"></label>
+      <textarea name="text" id="userText" cols="30" rows="10" placeholder="Message.."></textarea>
+    </li>
+    <li id="button">
+      <button type="submit">Send your message</button>
+    </li>
+  </ul>
+</form>
+
+<footer>
+    <a href="https://www.dwaynerilljr.dev" target="blank">&copy;2020 Dwayne S. Rill, Jr.</a>
+</footer>
+
+  <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+  <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+  <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+</body>
+</html>
